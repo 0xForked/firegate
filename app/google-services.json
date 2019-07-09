@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "198760296588",
+    "firebase_url": "https://fps-smsgate.firebaseio.com",
+    "project_id": "fps-smsgate",
+    "storage_bucket": "fps-smsgate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198760296588:android:016d0ac77daf7653",
+        "android_client_info": {
+          "package_name": "id.aasumitro.smsgate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198760296588-95qggtepsrp2oninl69nje8b39rb47fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKMaLT8M676Q8YrkX0o22NOEyPjPa6JhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198760296588-95qggtepsrp2oninl69nje8b39rb47fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
