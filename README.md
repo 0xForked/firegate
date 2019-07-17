@@ -19,7 +19,7 @@
 Several quick start options are available:
 
 - [Download the latest release.](https://github.com/)
-- Clone the repo: `git clone https://github.com/aasumitro/twbs-widgets.git`
+- Clone the repo: `git clone https://github.com/aasumitro/firegate.git`
 
 Read the [Getting started page](https://aasumitro.id/) for information on the contents, and examples, and more.
 
