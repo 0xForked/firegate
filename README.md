@@ -9,7 +9,7 @@
 
 </br>
 <p align="center">
-   <img src="https://github.com/aasumitro/firegate-sms-sender/blob/master/assets/firegate.png" width="550">
+   <img src="https://raw.githubusercontent.com/aasumitro/firegate/master/firegate.png" width="550">
 </p>
 </br>
 
