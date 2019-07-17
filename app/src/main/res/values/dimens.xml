@@ -1,3 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="divider">0.8dp</dimen>
+    <dimen name="radius_input">10dp</dimen>
 </resources>

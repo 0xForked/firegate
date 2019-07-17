@@ -1,18 +1,17 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    compileSdkVersion SDK.compile_version
+    buildToolsVersion SDK.build_tools_version
     defaultConfig {
-        applicationId "id.aasumitro.smsgate"
-        minSdkVersion 21
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        applicationId App.id
+        minSdkVersion SDK.minimum_version
+        targetSdkVersion SDK.target_version
+        versionCode Releases.version_code
+        versionName Releases.version_name
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -21,18 +20,36 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    androidExtensions {
+        experimental = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.core:core-ktx:1.0.2'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
-    implementation 'com.google.firebase:firebase-core:17.0.0'
-    implementation 'com.google.firebase:firebase-firestore:20.1.0'
+    implementation KotlinDeps.std_lib_jdk
+
+    implementation KotlinDeps.coroutines_core
+    implementation KotlinDeps.coroutines_android
+    implementation KotlinDeps.coroutines_play_service
+
+    implementation AndroidXComp.appcompat
+    implementation AndroidXComp.ktx
+    implementation AndroidXComp.constraint_layout
+    implementation AndroidXComp.recycler_view
+    implementation AndroidXComp.card_view
+
+    implementation ArchCompDeps.extension
+    kapt ArchCompDeps.compiler
+
+    implementation MaterialDeps.material
+
+    implementation FirebaseDeps.core
+    implementation FirebaseDeps.firestore
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

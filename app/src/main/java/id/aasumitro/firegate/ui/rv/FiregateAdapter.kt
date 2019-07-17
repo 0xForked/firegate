@@ -1,8 +1,10 @@
-package id.aasumitro.smsgate
+package id.aasumitro.firegate.ui.rv
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import id.aasumitro.firegate.R
+import id.aasumitro.firegate.data.model.SMS
 
 /**
  * Created by A. A. Sumitro on 09/07/19.
@@ -10,23 +12,23 @@ import androidx.recyclerview.widget.RecyclerView
  * https://aasumitro.id
  */
 
-class SMSAdapter(
+class FiregateAdapter(
     private val mData:  ArrayList<SMS>,
-    private val mListener: SMSListener
-) : RecyclerView.Adapter<SMSViewHolder>() {
+    private val mListener: FiregateListener<SMS>
+) : RecyclerView.Adapter<FiregateViewHolder>() {
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): SMSViewHolder {
+    ): FiregateViewHolder {
         val view = LayoutInflater
             .from(parent.context)
             .inflate(R.layout.item_data, parent, false)
-        return SMSViewHolder(view)
+        return FiregateViewHolder(view)
     }
 
     override fun onBindViewHolder(
-        holder: SMSViewHolder,
+        holder: FiregateViewHolder,
         position: Int
     ) = holder.bind(mData[position], mListener)
 

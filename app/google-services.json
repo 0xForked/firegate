@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "198760296588",
-    "firebase_url": "https://fps-smsgate.firebaseio.com",
-    "project_id": "fps-smsgate",
-    "storage_bucket": "fps-smsgate.appspot.com"
+    "project_number": "74108088825",
+    "firebase_url": "https://seanesia-dev.firebaseio.com",
+    "project_id": "seanesia-dev",
+    "storage_bucket": "seanesia-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:198760296588:android:016d0ac77daf7653",
+        "mobilesdk_app_id": "1:74108088825:android:01efcf081414f476",
         "android_client_info": {
-          "package_name": "id.aasumitro.smsgate"
+          "package_name": "id.aasumitro.firegate"
         }
       },
       "oauth_client": [
         {
-          "client_id": "198760296588-95qggtepsrp2oninl69nje8b39rb47fn.apps.googleusercontent.com",
+          "client_id": "74108088825-ed8vkul6d284aiakodp32q84jqnv8ten.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAKMaLT8M676Q8YrkX0o22NOEyPjPa6JhI"
+          "current_key": "AIzaSyAkn0LE1-RdFWeMLLm3o_54trS5b5cZ8N4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "198760296588-95qggtepsrp2oninl69nje8b39rb47fn.apps.googleusercontent.com",
+              "client_id": "74108088825-ed8vkul6d284aiakodp32q84jqnv8ten.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

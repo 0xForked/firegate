@@ -1,4 +1,4 @@
-package id.aasumitro.smsgate
+package id.aasumitro.firegate
 
 import org.junit.Test
 

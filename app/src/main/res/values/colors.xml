@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#053F5E</color>
+    <color name="colorAccent">#FFD700</color>
+
+    <color name="colorTextLight">#FFF</color>
+    <color name="colorTextPrimary">#101010</color>
+    <color name="colorTextAccent">#053F5E</color>
+
+    <color name="colorTextPressed">#000000</color>
+    <color name="colorTextDisabled">#C9505050</color>
+
+    <color name="colorBackgroundSecondary">#FFFFFF</color>
+
+    <color name="colorDivider">#F5F5F5</color>
+
+    <color name="colorInputAccent">#053F5E</color>
+    <color name="colorInputAccentPressed">#05334B</color>
+    <color name="colorInputAccentFocused">#094B6E</color>
+    <color name="colorInputAccentDisabled">#6D6D6D</color>
+
+    <color name="colorInputPrimary">#FFFFFF</color>
+    <color name="colorInputPrimaryPressed">#F3F3F3</color>
+    <color name="colorInputPrimaryFocused">#F0F0F0</color>
+    <color name="colorInputPrimaryDisabled">#6D6D6D</color>
+
+    <color name="colorInputSecondary">#F7F7F7</color>
+    <color name="colorInputSecondaryPressed">#F3F3F3</color>
+    <color name="colorInputSecondaryFocused">#D5D5D5</color>
+    <color name="colorInputSecondaryDisabled">#6D6D6D</color>
 </resources>

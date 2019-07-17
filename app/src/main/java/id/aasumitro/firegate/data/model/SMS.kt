@@ -1,4 +1,4 @@
-package id.aasumitro.smsgate
+package id.aasumitro.firegate.data.model
 
 import com.google.firebase.Timestamp
 
@@ -14,6 +14,6 @@ data class SMS (
     val message: String? = null,
     val status: String? = null,
     val provider: String? = null,
-    val issued: Timestamp? = null,
+    val issued: String? = null,
     val sent: Timestamp? = null
 )
